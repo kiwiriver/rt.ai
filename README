@@ -1,17 +1,24 @@
 Deep learning for the radiative transfer simulations
 Meng Gao Updated March 8, 2020
-* 1. Goal
+
+*1. Goal
 ** Train deep network for radiative transfer simulation
 ** Build the tool from simplest regression model
 ** Develop an easy follow workflow to tune hyperparamters
-* 2. Radiative transfer model
+
+*2. Radiative transfer model
 ** Use 5 submode to represent aerosol micro-physical properties
 ** Use wind speed(scalar), Chlorophyll a concentration to model ocean and surface scatterings
 ** Use principal componnet analysis to represent aerosol refractive index spectrum
 ** Random values of parameters are used to generate training dataset
-* 3. Tools
+
+*3. Tools
 ** Pytorch
-* 4. Reference
+** Colab
+The notebook can be tested in google colab:
+https://colab.research.google.com/github/
+
+*4. Reference
 ** Radiative transfer and aerosol retrieval algorithm
 Meng Gao, Peng-Wang Zhai, Bryan Franz, Yongxiang Hu, Kirk
 Knobelspiesse, P. Jeremy Werdell, Amir Ibrahim, Feng Xu, and Brian
